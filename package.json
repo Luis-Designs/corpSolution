@@ -1,7 +1,6 @@
 {
   "name": "corp_solution",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:Luis-Designs/corpSolution.git",
   "scripts": {
     "dev": "yarn parcel src/*.pug src/scss/*.scss src/js/*.js src/css/*.css",

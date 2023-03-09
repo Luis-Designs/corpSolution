@@ -1,0 +1,53 @@
+/* INDEX CONTENT */
+
+#carouselExampleDark {
+    position: relative;
+}
+
+.buttons-carousel {
+    position: absolute;
+    transform: translateY(-160px);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+
+.title-carousel {
+    position: absolute;
+    transform: translateY(-120%);
+    width: 40%;
+    text-align: left;
+}
+
+.title-carousel p {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.carousel-inner {
+    background-position: center top;
+    margin: -100px 0 0;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+}

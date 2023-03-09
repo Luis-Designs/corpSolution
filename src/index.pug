@@ -1,0 +1,24 @@
+extends layouts/default.pug
+
+block consts
+    - var title = "Home"
+
+block content
+    #carouselExampleDark.carousel.carousel-dark.slide(data-bs-ride="carousel")
+        .carousel-indicators.buttons-carousel
+            button.active(type='button' data-bs-target="#carouselExampleDark" data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+            button(type='button' data-bs-target="#carouselExampleDark" data-bs-slide-to='1' aria-label='Slide 2')
+            button(type='button' data-bs-target="#carouselExampleDark" data-bs-slide-to='2' aria-label='Slide 3')
+        .carousel-inner
+            .carousel-item.active(data-bs-interval='3000')
+                img(src='https://res.cloudinary.com/dokwefr5i/image/upload/v1678323180/corpSolution/Img_Hero_dyxs21.jpg' alt='...')
+                .carousel-caption.title-carousel
+                    p CORPSOLUTION INNOVADORAS DEL SUR
+            .carousel-item(data-bs-interval='2000')
+                img(src='https://res.cloudinary.com/dokwefr5i/image/upload/v1678323180/corpSolution/Img_Hero_dyxs21.jpg' alt='...')
+                .carousel-caption.title-carousel
+                    p CORPSOLUTION INNOVADORAS DEL SUR
+            .carousel-item
+                img(src='https://res.cloudinary.com/dokwefr5i/image/upload/v1678323180/corpSolution/Img_Hero_dyxs21.jpg' alt='...')
+                .carousel-caption.title-carousel
+                    p CORPSOLUTION INNOVADORAS DEL SUR

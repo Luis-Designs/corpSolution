@@ -1,0 +1,22 @@
+{
+  "name": "corp_solution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Luis-Designs/corpSolution.git",
+  "scripts": {
+    "dev": "yarn parcel src/*.pug src/scss/*.scss src/js/*.js src/css/*.css",
+    "build": "yarn parcel build src/*.pug src/scss/*.scss src/js/*.js src/css/*.css --public-url /corpSolution/",
+    "push-gh-pages": "yarn push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+  },
+  "author": "luis-designs <luislozano120xd@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-pug": "2.8.3",
+    "@parcel/transformer-sass": "2.8.3",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3"
+  }
+}
